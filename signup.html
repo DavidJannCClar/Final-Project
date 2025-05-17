@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up - Carbon Crusade</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body class="signup-page">
+  <header>
+    <h1>Carbon Crusade</h1>
+    <p class="tagline">Unite for a Cleaner, Greener Future</p>
+  </header>
+
+  <main>
+    <form id="signupForm">
+      <label>First Name* <input type="text" id="firstName" required></label><span class="error"></span><br>
+      <label>Last Name* <input type="text" id="lastName" required></label><span class="error"></span><br>
+      <label>Sex* <br>
+        <input type="radio" name="sex" value="Male"> Male
+        <input type="radio" name="sex" value="Female"> Female
+        <input type="radio" name="sex" value="Prefer not to say"> Prefer not to say
+      </label><span class="error"></span><br>
+      <label>Email Address* <input type="email" id="email" required></label><span class="error"></span><br>
+      <label>Password* <input type="password" id="password" required></label><span class="error"></span><br>
+      <label>Contact Number <input type="text" id="contact"></label><br>
+      <label>Why you’re supporting our campaign*<br>
+        <textarea id="whySupport" required></textarea>
+      </label><span class="error"></span><br>
+      <button type="submit">Join the Crusade</button>
+    </form>
+  </main>
+
+  <script src="signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body.signup-page {
+  background: url('Sign Up.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: #fff;
+}
+
+body.profile-page {
+  background: #e6f7ff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 10px;
+}

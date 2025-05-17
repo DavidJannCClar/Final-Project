@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Profile - Carbon Crusade</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body class="profile-page">
+  <header>
+    <h1>Welcome to the Crusade</h1>
+  </header>
+  <main>
+    <p><strong>First Name:</strong> <span id="displayFirstName"></span></p>
+    <p><strong>Last Name:</strong> <span id="displayLastName"></span></p>
+    <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+    <p><strong>Sex:</strong> <span id="displaySex"></span></p>
+    <p><strong>Support Reason:</strong> <span id="displayWhy"></span></p>
+    <a href="home.html">Continue to Home Page</a>
+  </main>
+
+  <script>
+    document.getElementById("displayFirstName").textContent = localStorage.getItem("firstName");
+    document.getElementById("displayLastName").textContent = localStorage.getItem("lastName");
+    document.getElementById("displayEmail").textContent = localStorage.getItem("email");
+    document.getElementById("displaySex").textContent = localStorage.getItem("sex");
+    document.getElementById("displayWhy").textContent = localStorage.getItem("whySupport");
+  </script>
+</body>
+</html>
